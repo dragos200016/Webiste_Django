@@ -1,0 +1,12 @@
+{% extends "learning_logs/base.html" %}
+
+{% block page_header %}
+	<div class="jumbotron">
+		<h1 class="dispply-3">Review your journal</h1>
+		<p class="lead">
+			Complete your own journal with whatever information you want to keep track of.
+		</p>
+		<a class="btn btn-lg btn-primary" href="{% url 'users:register' %}" role="button">Register &raquo;</a>
+	</div>
+	
+{% endblock page_header %}
